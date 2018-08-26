@@ -9,5 +9,10 @@ module.exports = {
   },
   loader: {
     rules: []
+  },
+  serve: {
+    open: true,
+    port: 8080,
+    content: resolve(__dirname, 'dist'),
   }
 }
