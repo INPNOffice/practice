@@ -6,7 +6,9 @@
   "scripts": {
     "watch": "webpack --watch",
     "build": "webpack",
-    "serve": "webpack-serve"
+    "serve": "webpack-serve",
+    "lint": "eslint --cache \"**/*.js\"",
+    "fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
