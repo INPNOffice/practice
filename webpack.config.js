@@ -9,9 +9,5 @@ module.exports = {
   },
   loader: {
     rules: []
-  },
-  devServer: {
-    port: 8080,
-    contentBase: resolve(__dirname, 'dist')
   }
 }
