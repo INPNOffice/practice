@@ -1,7 +1,7 @@
 const domready = require("domready");
 
 domready(function() {
-  var span = document.getElementById("span");
+  const span = document.getElementById("span");
   span.addEventListener("click", function(e) {
     span.innerHTML = "hugahuga";
     span.style.backgroundColor = "#00ffff";
